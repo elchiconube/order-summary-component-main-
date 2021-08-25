@@ -1,0 +1,123 @@
+:root {
+  --pale-blue: hsl(225, 100%, 94%); 
+  --bright-blue: hsl(245, 75%, 52%); 
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+  font-size: 16px;
+  font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
+  background-color: var(--pale-blue);
+  color: var(--dark-blue);
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+strong{
+  font-weight: 700;
+  color: var(--dark-blue);
+
+}
+
+.order-card{
+  max-width: 90%;
+  margin: 50px auto 0;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.1);
+}
+
+.order-card-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.order-card-container h1{
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.order-card-container p{
+  color: var(--desaturated-blue);
+}
+
+.order-card-plan {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  background-color: var(--very-pale-blue);
+  border-radius: 12px;
+  margin: 20px 0;
+  padding: 10px;
+
+}
+
+.order-card-plan {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  background-color: var(--very-pale-blue);
+  border-radius: 12px;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.order-card-plan div {
+  text-align: left;
+}
+
+.order-card-plan div {
+  text-align: left;
+}
